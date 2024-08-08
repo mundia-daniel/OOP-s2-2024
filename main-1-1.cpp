@@ -1,0 +1,12 @@
+#include <iostream>
+
+extern double arrayMin(double* array, int size);
+
+int main(){
+
+    double array[] = {1.1,-2.3,6,9,-30,4};
+
+    std::cout<<"minimum number is: "<<arrayMin(array,5)<<std::endl;
+
+    return 0;
+}
